@@ -10,7 +10,7 @@
 //
 // How to add a Framework (example)
 //
-OTHER_LDFLAGS=$(inherited) -framework StoreKit
+OTHER_LDFLAGS=$(inherited) -weak_framework StoreKit
 //
 // Adding a framework for a specific version(s) of iPhone:
 //
